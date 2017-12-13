@@ -1,0 +1,82 @@
+<!--index.wxml-->
+<view class="container">
+
+<!--  header  -->
+   <view class="doc-list">
+      <view class="doc-li">
+          <image src="../../images/user1.png"></image>
+          <view class="doc-text">商户查询</view>
+          <view class="circle bgcolor1">
+            <view class="messages">3</view>
+          </view>
+      </view>
+      <view class="doc-li">
+          <image src="../../images/user2.png"></image>
+          <view class="doc-text">私海</view>
+          <view class="circle bgcolor2">
+            <view class="messages">3</view>
+          </view>
+      </view>
+      <view class="doc-li" bindtap='toast'>
+          <image src="../../images/user3.png"></image>
+          <view class="doc-text">合伙人</view>
+          <view class="circle bgcolor3">
+            <view class="messages">3</view>
+          </view>
+      </view>
+  </view> 
+
+  <!--  本月数据  -->
+   <view class="month">
+      <view class="icons"></view>
+      <view class="icons-text">本月数据</view>
+  </view>
+
+  <view class="user-number">
+      <view class="users">
+          <view class="cary-text">新上架用户</view>
+          <view class="text-size">
+            <text class="number">0</text>
+            家
+          </view>
+      </view>
+      <view class="users other">
+          <view class="cary-text fixed-width">总用户(本月）</view>
+          <view class="text-size">
+            <text class="number">13</text>
+            家
+          </view>
+      </view>
+  </view> 
+
+  <!--  二维码  -->
+   <view class="month we-chat">
+      <view class="icons"></view>
+      <view class="icons-text">二维码</view>
+  </view>
+
+  <view class="user-number number-wechat">
+      <view class="users">
+          <view class="cary-text">总二维码</view>
+          <view class="text-size">
+            <text class="number">30</text>
+            个
+          </view>
+      </view>
+      <view class="users other">
+          <view class="cary-text fixed-width">已用</view>
+          <view class="text-size">
+            <text class="number">6</text>
+            个
+          </view>
+      </view>
+
+      <view class="stails">
+        <view class="stails-text">查看详情</view>
+        <view class="statils-direct">
+          <image src="../../images/right.png"></image>
+        </view>
+      </view>
+  </view> 
+
+</view>

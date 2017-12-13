@@ -1,0 +1,9 @@
+{
+  "pages":[
+    "pages/partner/partner",
+    "pages/partnerStails/partnerStails"
+  ],
+  "window":{
+    "enablePullDownRefresh": false
+  }
+}

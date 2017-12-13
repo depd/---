@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="content">
+    <view class="common-bg">
+        <view class="left-message">联系人:</view>
+        <view class="right-message">高要</view>
+    </view>
+    <view class="common-bg">
+        <view class="left-message">联系电话:</view>
+        <view class="right-message">15265650958</view>
+    </view>
+    <view class="common-bg">
+        <view class="left-message">推荐人:</view>
+        <view class="spacil-right">高颜颜</view>
+        <view class="spacil-left">手机号:</view>
+        <view class="right-message">15265650958</view>
+    </view>
+    <view class="common-bg">
+        <view class="left-message">身份证:</view>
+        <view class="right-message">
+           <view class="imag"> 
+            <image src="../../images/bg.png"></image>
+            <image src="../../images/bg.png"></image>
+            <image src="../../images/bg.png"></image>
+            <image src="../../images/bg.png"></image>  
+           </view> 
+        </view>
+    </view>
+    <view class="common-bg">
+        <view class="left-message">省份:</view>
+        <view class="spacil-right">山西</view>
+        <view class="spacil-left">城市:</view>
+        <view class="right-message">运城</view>
+    </view>
+    <view class="common-bg">
+        <view class="left-message">邀请码:</view>
+        <view class="right-message">84165498</view>
+    </view>
+  </view>
+</view>

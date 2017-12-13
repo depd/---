@@ -1,0 +1,101 @@
+/**index.wxss**/
+.doc-list{
+  width:100%;
+  border-top:1px solid #efefef;
+  border-bottom:1px solid #efefef;
+  margin-top:44rpx;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:50rpx 0;
+  background:#fff;
+}
+ .doc-li{
+  position:relative;
+}
+.circle{
+  position:absolute;
+  top:-10rpx;
+  right:-10rpx;
+  width:40rpx;
+  height:40rpx;
+  background:#fff;
+  border-radius:50%;
+  text-align:center;
+}
+.messages{
+  width:30rpx;
+  height:30rpx;
+  margin-left:5rpx;
+  margin-top:5rpx;
+  border-radius:50rpx;
+  background:#f00;
+  color:#fff;
+  font-size:20rpx;
+}
+.doc-li image{
+  width:100rpx;
+  height:100rpx;
+}
+.doc-text{
+  text-align:center;
+  line-height:90rpx;
+}
+.month{
+  width:100%;
+  padding:20rpx 0;
+  display:flex;
+  background:#fff;
+}
+.icons{
+  width:10rpx;
+  height:47rpx;
+  border-radius:5rpx;
+  background:#28b4ff;
+  margin-right:10rpx;
+  margin-left:54rpx;
+}
+.icons-text{
+  line-height:47rpx;
+  font-size:30rpx;
+}
+.user-number{
+  padding:20rpx 200rpx 20rpx 54rpx;
+  display:flex;
+  justify-content:space-between;
+  border-top:1px solid #efefef;
+  border-bottom:1px solid #efefef;
+  background:#fff;
+}
+.cary-text{
+  color:#d9d9d9;
+  line-height:70rpx;
+}
+.fixed-width{
+  width:210rpx;
+}
+.text-size{
+  font-size:20rpx;
+}
+.number{
+  font-size:30rpx;
+}
+.number-wechat{
+  position:relative;
+}
+.stails{
+  position:absolute;
+  right:45rpx;
+  top:52rpx;
+  display:flex;
+}
+.stails-text{
+  width:64rpx;
+  height:64rpx;
+  color:#d9d9d9;
+}
+.statils-direct image{
+  width:16rpx;
+  height:60rpx;
+  padding-top:5rpx;
+} 
