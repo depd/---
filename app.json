@@ -1,7 +1,9 @@
 {
   "pages":[
     "pages/partner/partner",
-    "pages/partnerStails/partnerStails"
+    "pages/partnerStails/partnerStails",
+    "pages/qrCode/qrCode",
+    "pages/userQuery/userQuery"
   ],
   "window":{
     "enablePullDownRefresh": false

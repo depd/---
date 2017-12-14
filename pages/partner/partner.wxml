@@ -2,7 +2,7 @@
 <view class="container">
 
 <!--  header  -->
-   <view class="doc-list">
+   <view class="doc-list" bindtap='userQuery'>
       <view class="doc-li">
           <image src="../../images/user1.png"></image>
           <view class="doc-text">商户查询</view>
@@ -17,7 +17,7 @@
             <view class="messages">3</view>
           </view>
       </view>
-      <view class="doc-li" bindtap='toast'>
+      <view class="doc-li" bindtap='parnter'>
           <image src="../../images/user3.png"></image>
           <view class="doc-text">合伙人</view>
           <view class="circle bgcolor3">
@@ -71,7 +71,7 @@
           </view>
       </view>
 
-      <view class="stails">
+      <view class="stails" bindtap='qrCode'>
         <view class="stails-text">查看详情</view>
         <view class="statils-direct">
           <image src="../../images/right.png"></image>

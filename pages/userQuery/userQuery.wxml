@@ -1,0 +1,17 @@
+<!--pages/userQuery/userQuery.wxml-->
+<!-- <view class="container">
+  <view class="wxserch">
+    <input placeholder="商户搜索" />
+  </view>
+</view> -->
+
+    <view class="search-wrapper">  
+      <view class="search-input-wrapper ">  
+        <input bindinput="bindBarcodeInput" bindconfirm="query" bindfocus="bindBarcodeFocus" bindblur="bindBarcodeBlur" class="search-input" placeholder="用户搜索" value="{{barcode}}" confirm-type="search"  placeholder-style="text-align:center;"/>  
+      </view>  
+    </view>  
+
+    <view class="">
+      
+    </view> 
+

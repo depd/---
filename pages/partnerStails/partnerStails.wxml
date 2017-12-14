@@ -33,6 +33,10 @@
         <view class="right-message">运城</view>
     </view>
     <view class="common-bg">
+        <view class="left-message">注册资本:</view>
+        <view class="right-message">5万</view>
+    </view>
+    <view class="common-bg">
         <view class="left-message">邀请码:</view>
         <view class="right-message">84165498</view>
     </view>

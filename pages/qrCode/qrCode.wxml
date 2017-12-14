@@ -1,0 +1,75 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="qr-codes">
+      <view class="userd add-color">已用（6）</view>
+      <view class="no-userd">未用（24）</view>
+  </view>
+
+  <view class="code-listbox">
+    <view class="code-list">
+
+      <view class="codes">
+          <view class="name">马盼盼</view>
+          <view class="parman">临汾合伙人</view>
+          <view class="serice">二维码</view>
+          <view class="targets">
+            <image src="../../images/right.png"></image>
+          </view>
+      </view>
+
+      <view class="codes">
+          <view class="name">马盼盼</view>
+          <view class="parman">临汾合伙人</view>
+          <view class="serice">二维码</view>
+          <view class="targets">
+            <image src="../../images/right.png"></image>
+          </view>
+      </view>
+
+      <view class="codes">
+          <view class="name">马盼盼</view>
+          <view class="parman">临汾合伙人</view>
+          <view class="serice">二维码</view>
+          <view class="targets">
+            <image src="../../images/right.png"></image>
+          </view>
+      </view>
+
+      <view class="codes">
+          <view class="name">马盼盼</view>
+          <view class="parman">临汾合伙人</view>
+          <view class="serice">二维码</view>
+          <view class="targets">
+            <image src="../../images/right.png"></image>
+          </view>
+      </view>
+
+      <view class="codes">
+          <view class="name">马盼盼</view>
+          <view class="parman">临汾合伙人</view>
+          <view class="serice">二维码</view>
+          <view class="targets">
+            <image src="../../images/right.png"></image>
+          </view>
+      </view>
+
+      <view class="codes">
+          <view class="name">马盼盼</view>
+          <view class="parman">临汾合伙人</view>
+          <view class="serice">二维码</view>
+          <view class="targets">
+            <image src="../../images/right.png"></image>
+          </view>
+      </view>
+
+      <view class="codes">
+          <view class="name">马盼盼</view>
+          <view class="parman">临汾合伙人</view>
+          <view class="serice">二维码</view>
+          <view class="targets">
+            <image src="../../images/right.png"></image>
+          </view>
+      </view>
+    </view>
+  </view>
+</view>

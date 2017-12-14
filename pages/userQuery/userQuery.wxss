@@ -1,0 +1,25 @@
+/* pages/userQuery/userQuery.wxss */
+
+
+    .search-wrapper {  
+      position: fixed;/*悬停搜索框的关键样式*/  
+      top: 0px;  
+      left: 0;  
+      width: 100%;  
+      z-index: 999;  
+      background-color: #f00;
+      padding:20rpx 0;  
+    }  
+     
+    .search-input-wrapper {  
+      width:70%; 
+      background-color: #eee;  
+      border-radius: 3px;
+      margin:0 auto;
+    }  
+      
+    .search-input {  
+      padding-top: 5px;  
+    }  
+    
+     

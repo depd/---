@@ -3,9 +3,21 @@
 const app = getApp()
 
 Page({
-  toast:function(){
+
+  parnter:function(){
     wx.navigateTo({
       url: '../partnerStails/partnerStails',
+    })
+  },
+
+  qrCode:function(){
+    wx.navigateTo({
+      url: '../qrCode/qrCode',
+    })
+  },
+  userQuery:function(){
+    wx.navigateTo({
+      url: '../userQuery/userQuery',
     })
   }
 })

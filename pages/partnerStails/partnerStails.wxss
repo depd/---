@@ -36,7 +36,7 @@
   padding-left:30rpx;
 }
  .imag{
-   width:455rpx;
+  width:455rpx;
   display:flex;
   flex-wrap:wrap;
   padding-bottom:26rpx;
