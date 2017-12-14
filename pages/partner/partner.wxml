@@ -2,15 +2,15 @@
 <view class="container">
 
 <!--  header  -->
-   <view class="doc-list" bindtap='userQuery'>
-      <view class="doc-li">
+   <view class="doc-list">
+      <view class="doc-li" bindtap='userQuery'>
           <image src="../../images/user1.png"></image>
           <view class="doc-text">商户查询</view>
-          <view class="circle bgcolor1">
+          <!-- <view class="circle bgcolor1">
             <view class="messages">3</view>
-          </view>
+          </view> -->
       </view>
-      <view class="doc-li">
+      <view class="doc-li" bindtap='personSea'>
           <image src="../../images/user2.png"></image>
           <view class="doc-text">私海</view>
           <view class="circle bgcolor2">
@@ -20,9 +20,9 @@
       <view class="doc-li" bindtap='parnter'>
           <image src="../../images/user3.png"></image>
           <view class="doc-text">合伙人</view>
-          <view class="circle bgcolor3">
+          <!-- <view class="circle bgcolor3">
             <view class="messages">3</view>
-          </view>
+          </view> -->
       </view>
   </view> 
 

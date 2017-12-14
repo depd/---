@@ -1,4 +1,4 @@
-// pages/userQuery/userQuery.js
+// pages/addUser/addUser.js
 Page({
 
   /**
@@ -62,12 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-
-  addUser:function(){
-    wx.navigateTo({
-      url: '../addUser/addUser',
-    })
   }
 })

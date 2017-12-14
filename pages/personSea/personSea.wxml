@@ -1,0 +1,96 @@
+<!--pages/personSea/personSea.wxml-->
+<view class="container">
+  <view class="list-header">
+    <view class="list">
+        <view class="no-up commons">未上架</view>
+        <view class="uping commons common-up">已上架</view>
+        <view class="uped commons common-up">已下架</view>
+    </view>
+  </view>
+
+  <!-- 未上架列表  -->
+  <view style='display:none'>
+    <view class="noup-list">
+      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+    <view class="noup-list">
+      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+    <view class="noup-list">
+      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+  </view>
+
+
+  <!-- 已上架  -->
+  <view style='display:none'>
+    <view class="noup-list">
+      <view class="list-text">
+        <view>
+          <text class="small-circle">·</text>
+          宝真100-锦绣华城
+        </view>
+        <view class="wait">待拜访</view>
+      </view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+    <view class="noup-list">
+      <view class="list-text">
+        <view>
+          <text class="small-circle">·</text>
+          宝真100-锦绣华城
+        </view>
+        <view class="wait">待拜访</view>
+      </view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+    <view class="noup-list">
+      <view class="list-text">
+        <view>
+          <text class="small-circle">·</text>
+          宝真100-锦绣华城
+        </view>
+        <view class="wait">待拜访</view>
+      </view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <!-- 已下架  -->
+  <view>
+    <view class="noup-list">
+      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+    <view class="noup-list">
+      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+    <view class="noup-list">
+      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-img">
+        <image src="../../images/right.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+

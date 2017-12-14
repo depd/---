@@ -1,0 +1,60 @@
+/* pages/personSea/personSea.wxss */
+.container{
+  background:#fafafa;
+}
+.list-header{
+  width:100%;
+  background:#df0130;
+  padding:30rpx 0;
+}
+.list{
+  width:415rpx;
+  background:#fff;
+  margin:0 auto;
+  border-radius:6rpx;
+  display:flex;
+  flex-wrap:nowrap;
+  padding:10rpx;
+  justify-content:space-between;
+}
+.commons{
+  width:130rpx;
+  color:#df0130;
+  background:#fff;
+  text-align:center;
+  line-height:50rpx; 
+  border-radius:10rpx;
+  font-size:28rpx;
+}
+.common-up{
+  color:#fff;
+  background:#df0130;
+}
+.noup-list{
+  width:100%;
+  box-sizing:border-box;
+  padding:50rpx 40rpx 26rpx 50rpx;
+  border-bottom:1px solid #eaeaea;
+  background: #fafafa;
+  display:flex;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+}
+.list-text{
+  font-size:34rpx;
+  color:#666;
+  padding:0;
+}
+.list-img image{
+  width:16rpx;
+  height:60rpx;
+}
+.wait{
+  font-size:25rpx;
+  color:#28b3fe;
+  text-indent:1em; 
+}
+.small-circle{
+  color:#f00;
+  font-weight:bold;
+}

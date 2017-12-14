@@ -1,17 +1,53 @@
 <!--pages/userQuery/userQuery.wxml-->
-<!-- <view class="container">
-  <view class="wxserch">
-    <input placeholder="商户搜索" />
-  </view>
-</view> -->
+<view class="container">
+  
+
 
     <view class="search-wrapper">  
       <view class="search-input-wrapper ">  
-        <input bindinput="bindBarcodeInput" bindconfirm="query" bindfocus="bindBarcodeFocus" bindblur="bindBarcodeBlur" class="search-input" placeholder="用户搜索" value="{{barcode}}" confirm-type="search"  placeholder-style="text-align:center;"/>  
+        <input class="search-input" placeholder="用户搜索"  placeholder-style="text-align:center;font-size:30rpx;"/>  
       </view>  
+      <view class="add-png" bindtap='addUser'>
+        <image src="../../images/add.png"></image>
+      </view>
     </view>  
 
-    <view class="">
-      
+    <view class="adress-list">
+      <view class="common-adress">
+        附近商户
+        <image src="../../images/select.png"></image>
+      </view>
+      <view class="common-adress">
+        离我最近
+        <image src="../../images/select.png"></image>  
+      </view>
+      <view class="common-adress">
+        公海
+        <image src="../../images/select.png"></image>
+      </view>
     </view> 
 
+    <view class="adress">
+      <image src="../../images/adress.png"></image>
+      山西省运城市盐湖区关公西街28号靠近明日制版y印刷场学校
+      <image src="../../images/refresh.png"></image>
+    </view>
+
+    <view class="user-content">
+
+      <view class="store-adress">
+        宝真100-空港店
+      </view>
+
+      <view class="distance">
+        北郊  0m
+      </view>
+
+      <view class="public-sea">
+        公海
+        <text class="chat">初次洽谈</text>
+      </view>
+    
+    </view>
+    
+</view>

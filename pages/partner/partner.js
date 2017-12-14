@@ -4,20 +4,32 @@ const app = getApp()
 
 Page({
 
-  parnter:function(){
+  //  用户查询
+  userQuery:function(){
+    wx.navigateTo({
+      url: '../userQuery/userQuery',
+    })
+  },
+
+  //  私海
+  personSea:function(){
+    wx.navigateTo({
+      url: '../personSea/personSea',
+    })
+  },
+
+  // 合伙人 
+  parnter: function () {
     wx.navigateTo({
       url: '../partnerStails/partnerStails',
     })
   },
 
-  qrCode:function(){
+  //  跳转二维码
+  qrCode: function () {
     wx.navigateTo({
       url: '../qrCode/qrCode',
     })
   },
-  userQuery:function(){
-    wx.navigateTo({
-      url: '../userQuery/userQuery',
-    })
-  }
+  
 })

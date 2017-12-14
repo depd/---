@@ -3,7 +3,9 @@
     "pages/partner/partner",
     "pages/partnerStails/partnerStails",
     "pages/qrCode/qrCode",
-    "pages/userQuery/userQuery"
+    "pages/userQuery/userQuery",
+    "pages/personSea/personSea",
+    "pages/addUser/addUser"
   ],
   "window":{
     "enablePullDownRefresh": false

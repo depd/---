@@ -40,6 +40,7 @@
 .doc-text{
   text-align:center;
   line-height:90rpx;
+  color:#4b4b4b;
 }
 .month{
   width:100%;
@@ -58,6 +59,7 @@
 .icons-text{
   line-height:47rpx;
   font-size:30rpx;
+  color:#4b4b4b;
 }
 .user-number{
   padding:20rpx 200rpx 20rpx 54rpx;
@@ -76,6 +78,7 @@
 }
 .text-size{
   font-size:20rpx;
+  color:#4b4b4b;
 }
 .number{
   font-size:30rpx;
@@ -92,7 +95,7 @@
 .stails-text{
   width:64rpx;
   height:64rpx;
-  color:#d9d9d9;
+  color:#afafaf;
 }
 .statils-direct image{
   width:16rpx;
