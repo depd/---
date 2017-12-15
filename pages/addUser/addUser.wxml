@@ -1,2 +1,122 @@
 <!--pages/addUser/addUser.wxml-->
 
+<view class="container">
+    <view class="notice">
+        <image src="../../images/notice.png"></image>
+        <view class="text">
+          未上架商户已达上限，可以释放部分商户再新增到私海，或者储存位置选择公海
+        </view>
+    </view>
+
+    <!-- 公海  -->
+    <view class="common-class">
+      <view class="common-left">
+        <image src='../../images/star.png'></image>
+        <text>存储方式</text>
+      </view>
+      <view class="common-right space-right">
+          公海
+      </view>
+    </view>
+
+    <!-- 商户名称  -->
+    <view class="common-class">
+      <view class="common-left">
+        <image src='../../images/star.png'></image>
+        <text>商户名称</text>
+      </view>
+      <view class="common-right space-right">
+          <input placeholder='填写商户名称'></input>
+      </view>
+    </view>
+
+    <!-- 联系方式  -->
+    <view class="common-class">
+      <view class="common-left">
+        <image src='../../images/star.png'></image>
+        <text>联系方式</text>
+      </view>
+      <view class="common-right space-right">
+          <input placeholder='填写联系方式'></input>
+      </view>
+    </view>
+
+    <!-- 营业状态  -->
+    <view class="common-class">
+      <view class="common-left">
+        <image src='../../images/star.png'></image>
+        <text>营业状态</text>
+      </view>
+      <view class="common-right flexs">
+          <view>选择营业状态</view>
+          <image src="../../images/right.png"></image>
+      </view>
+    </view>
+
+    <!-- 经营地址  -->
+    <view class="common-class">
+      <view class="common-left">
+        <image src='../../images/star.png'></image>
+        <text>经营地址</text>
+      </view>
+      <view class="common-right flexs">
+          <view>选择营业地址</view>
+          <image src="../../images/right.png"></image>
+      </view>
+    </view>
+
+    <!-- 所属商圈  -->
+    <view class="common-class">
+      <view class="common-left">
+        <image src='../../images/star.png'></image>
+        <text>所属商圈</text>
+      </view>
+      <view class="common-right flexs">
+          <view>选择所属商圈</view>
+          <image src="../../images/right.png"></image>
+      </view>
+    </view>
+
+    <!-- 具体地址   -->
+    <view class="common-class">
+      <view class="common-left">
+        <image src='../../images/star.png'></image>
+        <text>具体地址</text>
+      </view>
+      <view class="common-right space-right">
+          <input placeholder='填写具体地址  '></input>
+      </view>
+    </view>
+
+    <!-- 行业分类  -->
+    <view class="common-class">
+      <view class="common-left">
+        <image src='../../images/star.png'></image>
+        <text>行业分类</text>
+      </view>
+      <view class="common-right flexs">
+          <view>选择行业分类</view>
+          <image src="../../images/right.png"></image>
+      </view>
+    </view>
+
+    <!-- 所属机构  -->
+    <view class="common-class">
+      <view class="common-left">
+        <text>所属机构</text>
+      </view>
+      <view class="common-right space-right">
+          运城总部
+      </view>
+    </view>
+
+    <!-- 业务人员  -->
+    <view class="common-class">
+      <view class="common-left">
+        <text>业务人员</text>
+      </view>
+      <view class="common-right space-right">
+          李胜
+      </view>
+    </view>
+</view>

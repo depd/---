@@ -58,3 +58,11 @@
   color:#f00;
   font-weight:bold;
 }
+
+
+.show{
+  display:block;
+}
+.hidden{
+  display:none;
+}

@@ -3,29 +3,35 @@
   background:#efefef;
 }
 .qr-codes{
+  width:100%;
   padding:28rpx 0;
   background:#fff;
   box-sizing:border-box;
-  display:flex;
-  flex-wrap:nowrap;
   text-align:center;
   font-size:30rpx;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:9999;
 }
 .userd{
+  box-sizing:border-box;
   width:50%;
   line-height:30rpx;
   border-right:1px solid #bbb;
+  float:left;
 }
 .no-userd{
   width:50%;
   line-height:30rpx;
+  float:left;
 }
 .code-listbox{
   box-sizing:border-box;
   width:100%;
   padding:0 20rpx;
   background:#efefef;
-  margin-top:20rpx;
+  margin-top:110rpx;
 }
 .code-list{
   box-sizing:border-box;
@@ -52,4 +58,10 @@
 
 .add-color{
   color:#df0130;
+}
+.show{
+  display:block;
+}
+.hide{
+  display:none;
 }

@@ -2,14 +2,14 @@
 <view class="container">
   <view class="list-header">
     <view class="list">
-        <view class="no-up commons">未上架</view>
-        <view class="uping commons common-up">已上架</view>
-        <view class="uped commons common-up">已下架</view>
+        <view class="{{selected1?'no-up commons':'no-up commons common-up'}}" bindtap='selected1'>未上架</view>
+        <view class="{{selected2?'uping commons':'uping commons  common-up'}}" bindtap='selected2'>已上架</view>
+        <view class="{{selected3?'uped commons':' uped commons  common-up'}}" bindtap='selected3'>已下架</view>
     </view>
   </view>
 
   <!-- 未上架列表  -->
-  <view style='display:none'>
+  <view class="{{selected1?'show':'hidden'}}" >
     <view class="noup-list">
       <view class="list-text">宝真100-锦绣华城</view>
       <view class="list-img">
@@ -32,7 +32,7 @@
 
 
   <!-- 已上架  -->
-  <view style='display:none'>
+  <view class="{{selected2?'show':'hidden'}}">
     <view class="noup-list">
       <view class="list-text">
         <view>
@@ -72,25 +72,25 @@
   </view>
 
   <!-- 已下架  -->
-  <view>
+   <view class="{{selected3?'show':'hidden'}}">
     <view class="noup-list">
-      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-text">宝真100-锦绣华城3</view>
       <view class="list-img">
         <image src="../../images/right.png"></image>
       </view>
     </view>
     <view class="noup-list">
-      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-text">宝真100-锦绣华城33</view>
       <view class="list-img">
         <image src="../../images/right.png"></image>
       </view>
     </view>
     <view class="noup-list">
-      <view class="list-text">宝真100-锦绣华城</view>
+      <view class="list-text">宝真100-锦绣华城333</view>
       <view class="list-img">
         <image src="../../images/right.png"></image>
       </view>
     </view>
-  </view>
+  </view> 
 </view>
 
