@@ -15,5 +15,5 @@ Page({
     this.setData({
       selected: index
     })
-  },
+  }
 })
